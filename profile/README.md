@@ -3,9 +3,9 @@
 <p align="center"><strong>Hosted infrastructure for production AI agents.</strong></p>
 
 <p align="center">
-  <a href="https://docs.copass.id">Docs</a> ·
-  <a href="https://docs.copass.id/quickstart">Quickstart</a> ·
-  <a href="https://docs.copass.id/api-reference">API Reference</a> ·
+  <a href="https://docs.copass.com">Docs</a> ·
+  <a href="https://docs.copass.com/quickstart">Quickstart</a> ·
+  <a href="https://docs.copass.com/api-reference">API Reference</a> ·
   <a href="https://github.com/olane-labs/copass">copass</a>
 </p>
 
@@ -60,30 +60,30 @@ async for event in router.run(
 
 The same call works on `provider: 'google'` and `provider: 'hermes'`. Memory, tools, integrations, and end-user permissions stay scoped to the sandbox.
 
-A complete setup runs in 60 seconds — see the [Quickstart](https://docs.copass.id/quickstart).
+A complete setup runs in 60 seconds — see the [Quickstart](https://docs.copass.com/quickstart).
 
 ## Build with Copass
 
-- [**Agent Router**](https://docs.copass.id/developer-tools/agent-router) — Run agents that call models, integrations, and tools.
-- [**Context Router**](https://docs.copass.id/context-router/overview) — Register data sources, ingest content, query the knowledge graph.
-- [**Compute Router**](https://docs.copass.id/compute-router/overview) — Managed compute for self-hosted agent runtimes.
-- [**Collaboration**](https://docs.copass.id/collaboration/overview) — Share sandboxes and agents with teammates.
-- [**Account**](https://docs.copass.id/account/api-keys) — API keys, billing, and your Copass ID.
+- [**Agent Router**](https://docs.copass.com/developer-tools/agent-router) — Run agents that call models, integrations, and tools.
+- [**Context Router**](https://docs.copass.com/context-router/overview) — Register data sources, ingest content, query the knowledge graph.
+- [**Compute Router**](https://docs.copass.com/compute-router/overview) — Managed compute for self-hosted agent runtimes.
+- [**Collaboration**](https://docs.copass.com/collaboration/overview) — Share sandboxes and agents with teammates.
+- [**Account**](https://docs.copass.com/account/api-keys) — API keys, billing, and your Copass ID.
 
 ## Integrate from your stack
 
-- [**TypeScript**](https://docs.copass.id/sdk) — `@copass/agent-router`, `@copass/core`
-- [**Python**](https://docs.copass.id/sdk) — `copass-agent-router`, `copass-core`
-- [**CLI**](https://docs.copass.id/cli) — `copass` (Node 20+)
-- [**HTTP**](https://docs.copass.id/api-reference) — REST API with full OpenAPI catalog
-- [**MCP**](https://docs.copass.id/developer-tools/mcp) — `@copass/mcp` for Claude Code, Cursor, and any MCP client
+- [**TypeScript**](https://docs.copass.com/sdk) — `@copass/agent-router`, `@copass/core`
+- [**Python**](https://docs.copass.com/sdk) — `copass-agent-router`, `copass-core`
+- [**CLI**](https://docs.copass.com/cli) — `copass` (Node 20+)
+- [**HTTP**](https://docs.copass.com/api-reference) — REST API with full OpenAPI catalog
+- [**MCP**](https://docs.copass.com/developer-tools/mcp) — `@copass/mcp` for Claude Code, Cursor, and any MCP client
 
 ## Concepts
 
-- [**Sandboxes**](https://docs.copass.id/concepts/secure-storage) — Tenancy and isolation.
-- [**Retrieval**](https://docs.copass.id/concepts/retrieval) — `discover` / `interpret` / `search`.
-- [**Multi-tenancy**](https://docs.copass.id/concepts/multi-tenancy) — Per-end-user isolation via `endUserId`.
-- [**ANS**](https://docs.copass.id/ans/overview) — Addressing layer.
+- [**Sandboxes**](https://docs.copass.com/concepts/secure-storage) — Tenancy and isolation.
+- [**Retrieval**](https://docs.copass.com/concepts/retrieval) — `discover` / `interpret` / `search`.
+- [**Multi-tenancy**](https://docs.copass.com/concepts/multi-tenancy) — Per-end-user isolation via `endUserId`.
+- [**ANS**](https://docs.copass.com/ans/overview) — Addressing layer.
 
 ## Repositories
 
